@@ -53,12 +53,12 @@ function http.delete(url, params)
 
 **head** - это таблица, которая содержит в себе техническую информацию и заголовки. 
 
-**head.version** - версия **HTTP** используемая сервером. Строка.
-**head.response_code** - код ответа. Целое число.
-**head.major_response_code** - первая цифра **head.response_code** (1-5).
-**head.response_code_description** - описание кода ответа. Строка.
-**head.status** - текстовое описание **head.major_response_code** взятое из таблицы **http.statuses** под соответствующим индексом. Равно **info**, **success**, **redirection**, **client error** или **server_error**.
-**head.headers** - заголовки. Представлены ввиде таблицы, где ключ и значение - строки. Регистр всех ключей - нижний.
+**head.version** - версия **HTTP** используемая сервером. Строка.  
+**head.response_code** - код ответа. Целое число.  
+**head.major_response_code** - первая цифра **head.response_code** (1-5).  
+**head.response_code_description** - описание кода ответа. Строка.  
+**head.status** - текстовое описание **head.major_response_code** взятое из таблицы **http.statuses** под соответствующим индексом. Равно **info**, **success**, **redirection**, **client error** или **server_error**.  
+**head.headers** - заголовки. Представлены ввиде таблицы, где ключ и значение - строки. Регистр всех ключей - нижний.  
 
 ### Структура params
 
