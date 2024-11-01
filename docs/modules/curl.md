@@ -32,7 +32,7 @@ function curl.check_url_protocol(protocol, url, alt)
 function curl.has_program_api()
 ```
 
-Возвращает **true**, если установить связь с программной частью **API** возможно. В противном случае **false**. Для корректного результата должен вызываться не раньше чем через несколько (обычно 1-3) секунд после вызова события **on_world_open**
+Возвращает **true**, если установить связь с программной частью **API** возможно. В противном случае **false**. Для корректного результата должна вызываться не раньше чем через несколько (обычно 1-3) секунд после вызова события **on_world_open**
 ```lua
 function curl.is_program_api_connectable()
 ```
@@ -50,9 +50,9 @@ function curl.is_program_api_connectable()
 #### curl.info.release_date
 Дата выпуска текущей версии
 
-`curl.info.release_date.readable` - Удобочитаемая дата ввиде строки
-`curl.info.release_date.parts` - Таблица, которая хранит части даты в полях, такие как **year**, **month**, **day**. Каждое из полей представлено ввиде целого числа
-`curl.info.release_date.epoch` - Временная метка в целых миллисекундах
+`curl.info.release_date.readable` - Удобочитаемая дата ввиде строки  
+`curl.info.release_date.parts` - Таблица, которая хранит части даты в полях, такие как **year**, **month**, **day**. Каждое из полей представлено ввиде целого числа  
+`curl.info.release_date.epoch` - Временная метка в целых миллисекундах  
 
 #### curl.info.protocols
 Таблица в которой содержатся все протоколы, поддерживаемые текущей версией **curl**
