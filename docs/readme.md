@@ -16,9 +16,9 @@
 
 **Программный API** бесполезен без **скриптового API**
 
-**Скриптовый API** может работать без **программного API**, но в сильно ограниченном режиме. Все функции, которым необходимо взаимодействие с **curl** будут недоступны, а `curl.is_connectable()` всегда будет возвращать **false**
+**Скриптовый API** может работать без **программного API**, но в сильно ограниченном режиме. Все функции, которым необходимо взаимодействие с **curl** будут недоступны, а `curl.is_program_api_connectable()` всегда будет возвращать **false**
 
 ## Список модулей
-[curl:curl](modules/curl.md)
-[curl:utils/content_types](modules/content_types.md)
+[curl:curl](modules/curl.md)  
+[curl:utils/content_types](modules/content_types.md)  
 [curl:protocols/http](modules/http.md)
