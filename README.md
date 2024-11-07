@@ -1,5 +1,11 @@
 # VCcURL
 
+## Installation and use guide
+[EN](docs/en/install&usage.md) 
+[RU](docs/ru/install&usage.md)
+
+## Description
+
 VCcURL - This is a useful package for Voxel Core designed to access the Internet and use various protocols before their official implementation in Voxel Core. 
 The content pack provides various high-level functions for interacting with various protocols supported by the pack, such as:
 
@@ -7,7 +13,7 @@ The content pack provides various high-level functions for interacting with vari
 
 **SMTP** VCCURL 1.2 >
  
-Examples of use:
+## Examples of use
 
 Synchronous **HTTP GET** request to [Voxel World API](https://voxelword.ru/api)
 -# VCcURL 1.1
@@ -57,10 +63,6 @@ smpt.async.mail(
   }
 )
 ```
-
-## Installation and use guide
-[EN](docs/en/install&usage.md) 
-[RU](docs/ru/install&usage.md)
 
 ## VCcURL API Documentation
 [EN](docs/en/dev.md) 
