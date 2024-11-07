@@ -15,7 +15,7 @@ The content pack provides various high-level functions for interacting with vari
  
 ## Examples of use
 
-Synchronous **HTTP GET** request to [Voxel World API](https://voxelword.ru/api)
+Synchronous **HTTP GET** request to [Voxel World API](https://voxelworld.ru/api)
 
 `VCcURL 1.1+`
 ```lua
