@@ -15,7 +15,9 @@ The content pack provides various high-level functions for interacting with vari
  
 ## Examples of use
 
-Synchronous **HTTP GET** request to [Voxel World API](https://voxelword.ru/api) `VCcURL 1.1+`
+Synchronous **HTTP GET** request to [Voxel World API](https://voxelword.ru/api)
+
+`VCcURL 1.1+`
 ```lua
 local info, head = http.get("voxelworld.ru/api/v1/mods",
 	{
@@ -26,6 +28,7 @@ local info, head = http.get("voxelworld.ru/api/v1/mods",
 ```
 
 Synchronous **HTTP POST** request to [Catbox API](https://catbox.moe/tools.php)
+
 `VCcURL 1.1-`
 ```lua
 local info, head = http.post("catbox.moe/user/api.php",
