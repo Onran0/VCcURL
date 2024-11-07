@@ -2,7 +2,9 @@
 
 VCcURL - This is a useful package for Voxel Core designed to access the Internet and use various protocols before their official implementation in Voxel Core. 
 The content pack provides various high-level functions for interacting with various protocols supported by the pack, such as:
-**HTTP** VCcURL 1.0 > 
+
+**HTTP** VCcURL 1.0 >  
+
 **SMTP** VCCURL 1.2 >
  
 Examples of use:
